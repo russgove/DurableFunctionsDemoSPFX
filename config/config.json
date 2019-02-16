@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dureable-function-demo-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/dureableFunctionDemo/DureableFunctionDemoCommandSet.js",
+          "manifest": "./src/extensions/dureableFunctionDemo/DureableFunctionDemoCommandSet.manifest.json"
+        }
+      ]
+    },
+    "manage-function-instances-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/manageFunctionInstances/ManageFunctionInstancesWebPart.js",
+          "manifest": "./src/webparts/manageFunctionInstances/ManageFunctionInstancesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DureableFunctionDemoCommandSetStrings": "lib/extensions/dureableFunctionDemo/loc/{locale}.js",
+    "ManageFunctionInstancesWebPartStrings": "lib/webparts/manageFunctionInstances/loc/{locale}.js"
+  }
+}
