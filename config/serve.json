@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://tenant.sharepoint.com/sites/DurableFunctionDemo/Shared%20Documents/Forms/AllItems.aspx",
+      "pageUrl": "https://tenant.sharepoint.com/sites/DurableFunctionDemo/Drafts/Forms/AllItems.aspx",
       "customActions": {
         "26c6bdfd-38e3-416a-a912-6b85469908c1": {
           "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
